@@ -42,7 +42,7 @@ export default function LandingPage() {
           PHS Student Tools
         </h1>
         <p className="text-muted dark:text-[#9CA3AF] text-lg max-w-xl mx-auto">
-          Two tools to help you track your GPA and plan for finals — no login, no ads, all yours.
+          Have an idea for another tool? Talk to Mr. Hitron.
         </p>
       </div>
 
@@ -50,7 +50,7 @@ export default function LandingPage() {
         <ToolCard
           icon="📊"
           title="GPA Calculator"
-          description="Calculate your credit-weighted GPA by year and cumulatively across all four years of high school. Supports CP, Honors, and AP course levels with PHS-specific grade point values."
+          description="Calculate your weighted GPA by year and cumulatively across all four years of high school. Supports CP, Honors, and AP course levels with PHS-specific grade point values."
           to="/gpa-calculator"
         />
         <ToolCard
@@ -62,7 +62,7 @@ export default function LandingPage() {
       </div>
 
       <p className="text-center text-muted dark:text-[#9CA3AF] text-xs mt-12">
-        All data is saved locally in your browser. Nothing is sent to a server.
+        All data is saved locally in your browser. Nothing is ever sent to a server.
       </p>
     </div>
   );
