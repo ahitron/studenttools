@@ -9,7 +9,7 @@ export default function App() {
     <HashRouter>
       <div className="min-h-screen bg-surface dark:bg-[#0F1117] text-primary dark:text-[#E8E8F0] font-body transition-colors duration-200">
         <Nav />
-        <main>
+        <main className="pb-[calc(60px+env(safe-area-inset-bottom))] sm:pb-0">
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/gpa-calculator" element={<GpaCalculator />} />
