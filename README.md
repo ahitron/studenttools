@@ -5,7 +5,7 @@ A fast, mobile-friendly web app for high school students with two grade tools:
 - **GPA Calculator** — credit-weighted GPA by year and cumulative, using PHS-specific grade point values for CP, Honors, and AP courses
 - **Final Exam Forecast** — enter your four marking period grades and see exactly what exam score you need for each possible final grade
 
-No login, no backend. Everything is saved locally in the browser.
+No login, no backend. All data is saved locally in the browser.
 
 ---
 
